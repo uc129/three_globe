@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Built output (if applicable)
+dist/
+build/
+
+# Environment variables or secrets
+.env
+
+# Logs and debugging files
+logs/
+*.log
+npm-debug.log*
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# OS-specific files and directories
+.DS_Store
+Thumbs.db
+

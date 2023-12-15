@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.flex {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+
+}
+
+.banner {
+    width: 50%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px;
+    color: white;
+    background-color: black
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.canvas_container {
+    width: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(8, 228, 195);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 180px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(11, 138, 119);
+    color: black;
+    border: 1px solid rgb(8, 228, 195);
+    border-radius: 4px;
+    width: 180px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
